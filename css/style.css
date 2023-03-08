@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
 body{
     background-image: url('../img/bg_pizza.jpg');
     background-size: cover;
@@ -12,4 +14,60 @@ nav{
 
 .nav-link, .navbar-brand{
     color: white;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.6);
+}
+
+#focim, #alcim{
+    font-family: 'Cabin Sketch', cursive; 
+}
+
+#focim{
+    font-size: 112px;
+    font-variant: small-caps;
+}
+
+#alcim{
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+    #focim{
+        font-size: 50px;
+    }
+}
+
+#napolyi_lista{
+    list-style-image: url('../img/pizza_icon.png');
+}
+
+#napolyi_lista li{
+    line-height: 30px;
+}
+
+#kiemelt_pizza{
+    color: #414a04;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p:not(#extrak) {
+    line-height: 48px;
+    text-indent: 15px;
+}
+
+#kiemelt1{
+    background-color: #ffeccb;
+    border-color: #5d6a09;
+    border-style: double;
+    border-right: none;
+}
+
+#kiemelt2{
+    background-color: #ffeccb;
+    border-color: #5d6a09;
+    border-style: double;
+    border-left: none;
 }
