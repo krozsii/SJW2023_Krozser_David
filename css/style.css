@@ -22,11 +22,13 @@ nav{
 
 #focim, #alcim{
     font-family: 'Cabin Sketch', cursive; 
+    color:#414a04;
 }
 
 #focim{
     font-size: 112px;
     font-variant: small-caps;
+    text-align: center;
 }
 
 #alcim{
@@ -70,4 +72,32 @@ p:not(#extrak) {
     border-color: #5d6a09;
     border-style: double;
     border-left: none;
+}
+
+.img-fluid{
+    box-shadow: 2px 2px 5px #5d6a09;
+}
+
+#footer a:link, #footer a:visited{
+    color: white;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#footer a:hover{
+    background-color: black;
+}
+
+figcaption{
+    font-style: italic;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    background-color: #81150b;
+    padding: 10px;
 }
